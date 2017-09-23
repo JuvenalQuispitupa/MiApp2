@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmarkstar.sesion2.Actividad2">
+
+    <TextView
+        android:id="@+id/tv_Actividad2Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 2"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnActividad2_ir3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_Actividad2Titulo"
+        android:text="Siguiente Actividad3"
+        android:onClick="onNext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Actividad2_putExtra"
+        android:hint="Escribe texto putExtra"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_texto_array"
+        android:text="TExto array"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnActividad2_ir3"/>
+
+</RelativeLayout>
